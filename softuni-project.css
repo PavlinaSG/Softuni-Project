@@ -1,0 +1,421 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('img/ala-bala-batkata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+header p {
+    float: left;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 22px;
+}
+
+header nav {
+    float: right;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8001a;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #f8001a;
+}
+
+
+
+header h1 {
+    text-align: center;
+    padding-top: 300px;
+    width: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.fa, .fa-play-circle, .fa-4x {
+    width: 150px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+    color: #f8001a;
+}
+
+.fa-code, .fa-2x {
+    color: #ffffff;
+    float: left;
+}
+
+.first-header-container {
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.fa-address-book-o, .fa-microphone, .fa-cutlery {
+    float: left;
+    width: 25px;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.fa-boxes-orange
+
+
+.header-container {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 300px;
+}
+
+
+.header-container p{
+    width: 250px;
+}
+
+.coding {
+    width: 1100px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.coding-container {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.coding-container {
+    margin-top: 50px;
+}
+
+.first-article {
+    width: 150px;
+    margin: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.second-article {
+    width: 250px;
+    display: inline-block;
+    float:left;
+    margin: 40px;
+    margin-top: 0;
+
+}
+
+.coding-article-image {
+    margin: 40px;
+    margin-top: 0;
+}
+
+.author {
+    text-transform: capitalize;
+    margin-top: 35px;
+    font-size: 12px;
+    float: right;
+}
+
+.create {
+    font-weight: bold;
+}
+
+
+.bold {
+    font-weight: bold;
+    float: right;
+
+}
+
+.schedule {
+    width: 100%;
+    height: 600px;
+}
+
+.schedule-container h1 {
+    font-size: 22px;
+    color: #313131;
+    padding-top: 20px;
+    width: 420px;
+    margin-left: -35px;
+}
+
+.schedule-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.schedule-box-container {
+    display: inline-block;
+    width: 496px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.schedule-box-container p {
+    color: #3D3C44;
+}
+
+.time {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.time-second {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    width: 230px;
+}
+
+.speakers {
+    height: 950px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.speakers-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.speakers-container p {
+    float: right;
+    width: 550px;
+    margin-top: 70px;
+}
+
+.the-speakers {
+    width: 270px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.section-for-images {
+    height: 800px;
+}
+
+.images-container {
+    margin: 0 auto;
+    width: 900px;
+    height: 399px;
+}
+
+.images-container div {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    height: 350px;
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+}
+
+.images-container div img {
+    width: 100%;
+}
+
+.images-container p {
+    width: 230px;
+    margin-top: 10px;
+    color: #3D3C44;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.fa-github {
+    color: #3D3C44;
+    width: 45px;
+    margin-right: 70px;
+    margin-top: -32px;
+}
+
+.image-container-second-paragraph {
+    text-transform: uppercase;
+    color: #f8001a;
+    margin-left: 25px;
+}
+
+.fa-github:hover {
+    color: #f8001a;
+    cursor: pointer;
+}
+
+.special-events {
+    background-color: #515460;
+    width: 100%;
+    height: 650px;
+}
+
+.special-events-container {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+}
+
+.special-events-box {
+    width: 800px;
+    margin-top: 80px;
+}
+
+.special-events-box h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.special-events-box p {
+    width: 360px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.special-events-subscribe {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.special-events-subscribe input {
+    border-bottom: 3px solid #f8001a;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: #ffffff;
+}
+
+.special-events-subscribe button {
+    padding: 5px;
+    width: 120px;
+    color: #ffffff;
+    background-color: #f8001a;
+    border-radius: 15px;
+    border-color: #f8001a;
+}
+
+.special-events-subscribe button:hover {
+    background-color: #333333;
+    border-color: #333333;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #292A2F;
+    height: 100px;
+    margin-top: -22px;
+}
+
+footer p {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+
+}
+
+footer .second-footer-paragraph {
+    float: right;
+    width: 220px;
+}
+
+
+.contact-form {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+form {
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+}
+
+input[name="username"],input[name="email"], textarea[name="message"], select[name="select"] {
+    width: 450px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+input[name="username"] {
+    margin-left: 11px;
+}
+
+textarea[name="message"] {
+    margin-left: 50px;
+}
+
+select[name="select"] {
+    margin-left: 38px;
+    width: 472px;
+}
+
+.buttom-form {
+    background-color: #f2f3ff;
+    width: 200px;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttom-form:hover {
+    background: #3D3C44;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff3e9;
+}
